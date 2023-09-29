@@ -47,7 +47,7 @@ const Hero = () => {
                         <a href="https://github.com/prog-ankit/" target="_blank"><i className="ri-github-fill"></i></a>
                     </div>
                     <div className="main-btn">
-                        <a href="https://drive.google.com/file/d/19wI8C_ZzBQl7RyqypOC1BmAZYwu2KVql/view?usp=sharing" target="_blank" className="btn">Download CV</a>
+                        <a href="https://drive.google.com/file/d/1pEL7ACXjikb4um8JxSUjIw5b64goNS7Q/view?usp=sharing" target="_blank" className="btn">Download CV</a>
                     </div>
                 </div>
 
