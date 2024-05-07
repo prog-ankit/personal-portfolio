@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 
-import ComputersCanvas from "./canvas/Computers";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
@@ -9,10 +8,10 @@ const Hero = () => {
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["Ankit Bose", "Blockchain Enthusiast.", "Cloud Certified.", "Developer."], // Strings to display
+            strings: ["Ankit Bose", "Blockchain Enthusiast.", "Cloud Certified.", "Software Developer."], // Strings to display
             // Speed settings, try diffrent values untill you get good results
             startDelay: 300,
-            typeSpeed: 200,
+            typeSpeed: 350,
             backSpeed: 100,
             backDelay: 200,
             loop: true
@@ -47,7 +46,7 @@ const Hero = () => {
                         <a href="https://github.com/prog-ankit/" target="_blank"><i className="ri-github-fill"></i></a>
                     </div>
                     <div className="main-btn">
-                        <a href="https://drive.google.com/file/d/1pEL7ACXjikb4um8JxSUjIw5b64goNS7Q/view?usp=sharing" target="_blank" className="btn">Download CV</a>
+                        <a href="https://drive.google.com/file/d/1ecTqa3NVO3RKxM-BSkNp0_6jY3aAQ6iP/view" target="_blank" className="btn">Download CV</a>
                     </div>
                 </div>
 

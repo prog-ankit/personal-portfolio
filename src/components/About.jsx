@@ -35,8 +35,8 @@ const About = () => {
             </motion.div>
 
             <motion.p variants={fadeIn(',', 0.1, 1)} className='mt-4 text-secondary
-          text-[17px] max-w-3xl leading-[30px]'>
-                I am an IT engineer pursuing Bachelor's of Information Technolog from L.D. College of Engineering and looking forward to encharge my capabilities into an IT firm that could chanellize not only me but also help the organization to reach the new heights of success.
+          text-[17px] max-w-4xl leading-[35px]'>
+                Hi, I'm an IT engineer graduating in 2024, with a diverse skill set in development, architecture, and speech technologies. I have a solid understanding of the Software Development Lifecycle and its practical application in app and web development. I am dedicated to continuous learning, and I consistently bring 100% effort and determination to every project. My goal is to excel in all my endeavors and drive success through hard work and commitment.
 
             </motion.p>
             <div className='mt-20 flex flex-wrap gap-8'>

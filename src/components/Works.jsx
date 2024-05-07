@@ -15,9 +15,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                 scale: 1,
                 speed: 450,
             }}
-            className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+            className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full hover:bg-transparent hover:border-2 hover:border-white cursor-pointer'
         >
-            <div className='relative w-full h-[230px]'>
+            <div className='relative w-full h-[220px]'>
                 <img
                     src={image}
                     alt='project_image'
@@ -65,7 +65,7 @@ const Works = () => {
 
             </motion.div>
             <div className="w-full flex">
-                <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+                <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
                     Here are some of my works which shows my proficiency in different techs and still looking for more and more unique projects.
                     <br />
                     Visit my <a href="https://github.com/prog-ankit" id="myAnchor">github.</a>

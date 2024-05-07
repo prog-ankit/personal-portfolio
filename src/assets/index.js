@@ -31,16 +31,20 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import sumay from "./company/sumay.png";
+import ags from "./company/ags.png";
 import nityajal from "./company/nityajal.png";
 import tesla from "./company/tesla.png";
 import close from './close.svg'
 import menu from './menu.svg'
 import aams from "./AAMS1.png";
 import vap from "./VAP.jpeg";
+import api from "./api.png";
+
 import spring_rest from "./spring_react_rest.png";
 import avatar from './avatar.png';
 export {
   avatar,
+  api,
   logo,
   backend,
   creator,
@@ -69,7 +73,7 @@ export {
   salesforce,
   springboot,
   reactjs,
-
+  ags,
   tailwind,
   threejs,
   meta,
